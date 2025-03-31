@@ -9,7 +9,7 @@ chat = model.start_chat()
 while True:
     msg = input("You : ")
     if msg.lower() == "exit" or msg.lower()=="goodbye":
-        print("ApexAi : GoodBye!")
+        print("BeyondAi : GoodBye!")
         break
     reponse = chat.send_message(msg)
-    print("ApexAi : ",reponse.text)
+    print("BeyondAi : ",reponse.text)
